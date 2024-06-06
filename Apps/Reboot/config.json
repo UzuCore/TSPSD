@@ -1,5 +1,6 @@
 {
-"label":"시스템 재시작",
+"label":"Reboot",
+"label.ko.lang":"시스템 재시작",
 "icon":"icon.png",
 "iconsel":"icon.png",
 "launch":"launch.sh",
