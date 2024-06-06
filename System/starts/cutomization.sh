@@ -1,32 +1,17 @@
 #!/bin/sh
 export LD_LIBRARY_PATH="/mnt/SDCARD/System/lib:/usr/trimui/lib:$LD_LIBRARY_PATH"
 system_json="/mnt/UDISK/system.json"
-Current_Theme=$(/usr/trimui/bin/systemval theme)
-Current_bg="$Current_Theme/skin/bg.png"
-if [ ! -f "$Current_bg" ]; then
-	Current_bg="/mnt/SDCARD/trimui/res/skin/transparent.png"
-fi
-
-################ CrossMix-OS Version Splashscreen ################
-
-version=$(cat /mnt/SDCARD/System/usr/trimui/crossmix-version.txt)
-/mnt/SDCARD/System/bin/sdl2imgshow \
-	-i "$Current_bg" \
-	-f "/mnt/SDCARD/System/resources/DejaVuSans.ttf" \
-	-s 30 \
-	-c "220,220,220" \
-	-t "CrossMix OS v$version" &
 
 ################ CrossMix-OS internal storage Customization ################
 
 if [ ! -e "/usr/trimui/fw_mod_done" ]; then
 
-	# add pl language
-	if [ ! -e "/usr/trimui/res/skin/pl.lang" ]; then
-		cp "/mnt/SDCARD/trimui/res/lang/pl.lang" "/usr/trimui/res/lang/"
-		cp "/mnt/SDCARD/trimui/res/lang/pl.lang.short" "/usr/trimui/res/lang/"
-		cp "/mnt/SDCARD/trimui/res/lang/lang_pl.png" "/usr/trimui/res/skin/"
-	fi
+	# background remove
+	find /mnt/SDCARD/Emus/ -iname config.json -exec sed -i 's/\"background.*\"/\"background\":\"\"/' {} \;
+
+	# add ko language
+	cp -f "/mnt/SDCARD/trimui/res/lang/ko.lang" "/usr/trimui/res/lang/"
+	cp -f "/mnt/SDCARD/trimui/res/lang/ko.lang.short" "/usr/trimui/res/lang/"
 
 	# custom shutdown script from "Resume at Boot"
 	cp "/mnt/SDCARD/System/usr/trimui/bin/kill_apps.sh" "/usr/trimui/bin/kill_apps.sh"
