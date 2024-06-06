@@ -1,0 +1,114 @@
+[000000] codo_init
+[000000]   platform: Linux
+[000000]   Found config.txt
+[000000]   
+[000000]     01 window_size 640 480 // window width, height
+[000000]     02 screen_size 1280 720 // screen width, height (stretched to window) 
+[000000]     03 show_fps 0 // Draw frames per second in the corner
+[000000]     04 windowed 0 // 1 to start up in windowed mode
+[000000]     05 window_position -1 -1 // x and y position of window (-1, -1 to let the window manager decide)
+[000000]     new window position: -1, -1
+[000000]     06 frameless 1 // 1 to use a window with no frame
+[000000]     07 fullscreen_method 2 // 0 maximized window (linux)  1 borderless desktop-sized window  2 hardware fullscreen (warning: erratic behaviour under some drivers)
+[000000]     08 blit_method 0  // 0 auto  1 software (slower but sometimes more reliable)  2 hardware (can do filtered scaling) 
+[000000]     09 foreground_sleep_ms 4 // number of milliseconds to sleep each frame. Try 10 to conserve battery power
+[000000]     10 background_sleep_ms 8 // number of milliseconds to sleep each frame when running in the background
+[000000]     11 sessions 864 // number of times program has been run
+[000000]     12 rmb_key 0 // 0 for none  226 for LALT
+[000000]     13 desktop_path 
+[000000]     14 read_controllers_in_background 0
+[000000]     15 sound_volume 256 // 0..256
+[000000]     16 music_volume 256 // 0..256
+[000000]     17 mix_buffer_size 1024
+[000000]     18 map_scancodes 
+[000000]     19 version 0.2.5g
+[000000]     20 volume 256
+[000000]     21 root_path /mnt/SDCARD/Apps/pico/.lexaloffle/
+[000000]     22 cdata_path /mnt/SDCARD/Apps/pico/.lexaloffle/pico-8/cdata/
+[000000]     23 joystick_index 0
+[000000]     24 button_keys 0 0 0 0 0 0 0 0 0 0 0 0 0 
+[000000]     25 live_notes 0
+[000000]     26 cursor_snap 0
+[000000]     27 gui_theme 0
+[000000]     28 screenshot_scale 3
+[000000]     29 gif_scale 2
+[000000]     30 gif_len 8
+[000000]     31 gif_reset_mode 0
+[000000]     32 host_framerate_control 1
+[000000]     33 splore_filter 0
+[000000]     34 tab_width 1
+[000000]     35 draw_tabs 0
+[000000]     36 record_activity_log 1
+[000000]     37 allow_function_keys 1
+[000000]     38 check_for_cart_updates 1
+[000000]     39 enable_gpio 1
+[000000]     40 auto_hide_mouse_cursor 5
+[000000]     41 aggressive_backups 0
+[000000]     42 periodic_backups 20
+[000000]     43 transform_screen 0
+[000000]     44 gfx_grid_lines 0
+[000000]   
+[000001]   codo_system_init
+[000966]   Compiled against SDL version: 2.0.14
+[000966]   Linked against SDL version:   2.26.1
+[000966]   Current video driver: mali
+[000966]   codo_reset_timer
+[000966]   codo_gui_init
+[000966]   codo_keys_init
+[000966]   codo_text_init
+[000967]   codo_video_init
+[000967]   codo_mouse_init
+[000967]   codo_joystick_init
+[000973]   Reading controller mappings: /mnt/SDCARD/Apps/pico/.lexaloffle/pico-8/sdl_controllers.txt
+[000973]   searching for joysticks
+[000973]     found 1 joysticks
+[000973]     connecting joystick 0
+[000973]     Controller 0: X360 Controller
+[000973]      Number of Axes: 6
+[000973]      Number of Buttons: 11
+[000973]      Number of Balls: 0
+[000973]      Mapping: 030003f05e0400008e02000014010000,X360 Controller,a:b0,b:b1,back:b6,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b8,leftshoulder:b4,leftstick:b9,lefttrigger:a2,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b10,righttrigger:a5,rightx:a3,righty:a4,start:b7,x:b2,y:b3,platform:Linux
+[000973]   ok
+[000973] ok
+[001013] codo_load_pod: /mnt/SDCARD/Apps/pico/bin/pico8.dat ok 
+[001034] codo_set_screen 128 128 8 100
+[001034]  window size: 640 480
+[001034] setting fullscreen window size to 1280 720
+[001157]   setting filter to linear (screen_mode 1  back page width: 128)
+  renderer opengles2:
+   flags: 0x0000000E ( |  | )
+   texture formats (8): ARGB8888, ABGR8888, RGB888, BGR888, YV12, IYUV, 0x3231564e, 0x3132564e
+   max texture size: 4096x4096
+[001164]  desktop size: 1280 720
+[001164] ok
+[001169] codo_sound_init mix_buffer_size: 1024
+[001170] codo_sound_init
+[001170] SDL_INIT_AUDIO ok
+[001171] SDL_OpenAudio ok
+[001171]  freq:22050
+ channels:1
+[001171] Built-in audio drivers: 0 dsp 1 disk 2 dummy
+[001171] Current audio driver: dsp
+[001171] splore_init
+[002586] connecting joystick 0
+[002586] Controller 0: X360 Controller
+[002586]  Number of Axes: 6
+[002586]  Number of Buttons: 11
+[002586]  Number of Balls: 0
+[002586]  Mapping: 030003f05e0400008e02000014010000,X360 Controller,a:b0,b:b1,back:b6,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b8,leftshoulder:b4,leftstick:b9,lefttrigger:a2,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b10,righttrigger:a5,rightx:a3,righty:a4,start:b7,x:b2,y:b3,platform:Linux
+[006851] prepare_loaded_cart: looking for sandboxed cart patch: /mnt/SDCARD/Apps/pico/.lexaloffle/pico-8/cstore/__bf285b9c2c111a8cc2d279146ff0304a0545cd28.p8
+[006851]   not found
+[007480] run_cart current_filename: /mnt/SDCARD/Apps/pico/.lexaloffle/pico-8/bbs/carts/fsgupicozombiegarden121-0.p8.png running_filename: pico-8/bbs/carts/fsgupicozombiegarden121-0.p8.png running_cart_lid: 
+[049882] prepare_loaded_cart: looking for sandboxed cart patch: /mnt/SDCARD/Apps/pico/.lexaloffle/pico-8/cstore/__bf285b9c2c111a8cc2d279146ff0304a0545cd28.p8
+[049882]   not found
+[050515] run_cart current_filename: /mnt/SDCARD/Apps/pico/.lexaloffle/pico-8/bbs/carts/fsgupicozombiegarden121-0.p8.png running_filename: pico-8/bbs/carts/fsgupicozombiegarden121-0.p8.png running_cart_lid: 
+[060311] codo_exit
+[060311]   cmusic_stop
+[060311]   codo_main_exit
+[060314]   codo_config_save
+[060314]   codo_sound_exit
+[060314]   codo_video_exit
+[060343]   codo_joystick_exit
+[060343]   codo_system_exit
+[060344]   codo_items_created: 1259
+[060344] ok
