@@ -1,5 +1,6 @@
 {
     "label":	"Screen Rec.",
+    "label.ko.lang":"화면 녹화",
     "icon":	"icon/icon.png",
     "launch":	"launch.sh",
     "description":	"Starts screen recording"

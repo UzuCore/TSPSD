@@ -1,5 +1,6 @@
 {
 "label":"EmuCleaner",
+"label.ko.lang":"시스템 갱신",
 "icon":"EmulatorsCleaner.png",
 "iconsel":"EmulatorsCleaner.png",
 "launch":"launch.sh",
