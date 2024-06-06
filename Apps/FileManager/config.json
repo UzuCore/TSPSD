@@ -1,5 +1,5 @@
 {
-"label":"File Manager",
+"label":"파일 관리자",
 "icon":"commander.png",
 "iconsel":"commander.png",
 "launch":"launch.sh",

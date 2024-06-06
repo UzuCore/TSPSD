@@ -12,6 +12,10 @@ if [ ! -e "/usr/trimui/fw_mod_done" ]; then
 	# add ko language
 	cp -f "/mnt/SDCARD/trimui/res/lang/ko.lang" "/usr/trimui/res/lang/"
 	cp -f "/mnt/SDCARD/trimui/res/lang/ko.lang.short" "/usr/trimui/res/lang/"
+	sed -i 's/\"label.ch.lang.*/\"label.ko.lang\":\"펑션키 설정\",/' /usr/trimui/apps/fn_editor/config.json
+	sed -i 's/\"label.ch.lang.*/\"label.ko.lang\":\"문라이트\",/' /usr/trimui/apps/moonlight/config.json
+	sed -i 's/\"label.ch.lang.*/\"label.ko.lang\":\"미디어 플레이어\",/' /usr/trimui/apps/player/config.json
+	sed -i 's/\"label.ch.lang.*/\"label.ko.lang\":\"USB 저장소\",/' /usr/trimui/apps/usb_storage/config.json
 
 	# custom shutdown script from "Resume at Boot"
 	cp "/mnt/SDCARD/System/usr/trimui/bin/kill_apps.sh" "/usr/trimui/bin/kill_apps.sh"
