@@ -1,0 +1,67 @@
+[
+    {
+        "name":"LED off",
+        "name.ko.lang":"LED 끄기",
+        "launch":"com.trimui.ledc.sh"
+    },
+    {
+        "name":"Quiet Mode",
+        "name.ko.lang":"매너 모드",
+        "launch":"com.trimui.quiet.sh"
+    },
+    {
+        "name":"Silent Mode",
+        "name.ko.lang":"무음 모드",
+        "launch":"com.trimui.silent.sh"
+    },
+    {
+        "name":"CPU Power Save",
+        "name.ko.lang":"CPU 저전력 모드",
+        "launch":"com.trimui.cpusave.sh"
+    },
+    {
+        "name":"CPU Performance Mode",
+        "name.ko.lang":"CPU 성능 모드",
+        "launch":"com.trimui.cpuperformance.sh"
+    },
+    {
+        "name":"Turbo Button A",
+        "name.ko.lang":"A 버튼 터보",
+        "launch":"com.trimui.turbo_a.sh"
+    },
+    {
+        "name":"Turbo Button B",
+        "name.ko.lang":"B 버튼 터보",
+        "launch":"com.trimui.turbo_b.sh"
+    },
+    {
+        "name":"Turbo Button X",
+        "name.ko.lang":"X 버튼 터보",
+        "launch":"com.trimui.turbo_x.sh"
+    },
+    {
+        "name":"Turbo Button Y",
+        "name.ko.lang":"Y 버튼 터보",
+        "launch":"com.trimui.turbo_y.sh"
+    },
+    {
+        "name":"Turbo Button L",
+        "name.ko.lang":"L 버튼 터보",
+        "launch":"com.trimui.turbo_l.sh"
+    },
+    {
+        "name":"Turbo Button R",
+        "name.ko.lang":"R 버튼 터보",
+        "launch":"com.trimui.turbo_r.sh"
+    },
+    {
+        "name":"Turbo Button L2",
+        "name.ko.lang":"L2 버튼 터보",
+        "launch":"com.trimui.turbo_l2.sh"
+    },
+    {
+        "name":"Turbo Button R2",
+        "name.ko.lang":"R2 버튼 터보",
+        "launch":"com.trimui.turbo_r2.sh"
+    }
+]
