@@ -21,6 +21,9 @@ if [ ! -e "/usr/trimui/fw_mod_done" ]; then
 	mv "/usr/trimui/res/skin/ic-game-580.png" "/usr/trimui/res/skin/ic-game-580_old.png"
 	cp "/mnt/SDCARD/trimui/res/skin/ic-game-580.png" "/usr/trimui/res/skin/ic-game-580.png"
 
+	# fnkey ko language
+	cp -f "/mnt/SDCARD/trimui/res/fn_editor/scripts.json" "/usr/trimui/apps/fn_editor/"
+
 	# Removing duplicated app
 	rm -rf /usr/trimui/apps/zformatter_fat32/
 
