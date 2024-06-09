@@ -26,8 +26,8 @@ if pgrep "ffmpeg" >/dev/null; then
   killall -2 ffmpeg
   
   /mnt/SDCARD/System/bin/sdl2imgshow \
-    -i "/mnt/SDCARD/trimui/res/crossmix-os/bg-exit.png" \
-    -f "/mnt/SDCARD/System/resources/DejaVuSans.ttf" \
+    -i "/mnt/SDCARD/trimui/res/bg.png" \
+    -f "/mnt/SDCARD/trimui/res/NanumSquareNeo-bRg.ttf" \
     -s 30 \
     -c "220,220,220" \
     -t "Record stopped." &
@@ -37,8 +37,8 @@ if pgrep "ffmpeg" >/dev/null; then
 else
 
   /mnt/SDCARD/System/bin/sdl2imgshow \
-    -i "/mnt/SDCARD/trimui/res/crossmix-os/bg-exit.png" \
-    -f "/mnt/SDCARD/System/resources/DejaVuSans.ttf" \
+    -i "/mnt/SDCARD/trimui/res/bg.png" \
+    -f "/mnt/SDCARD/trimui/res/NanumSquareNeo-bRg.ttf" \
     -s 30 \
     -c "220,220,220" \
     -t "Press any key to start recording now. Launch the app again to stop the recording." &
