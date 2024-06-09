@@ -18,7 +18,7 @@ if [ ! -e "/usr/trimui/fw_mod_done" ]; then
 	sed -i 's/\"label.ch.lang.*/\"label.ko.lang\":\"USB 저장소\",/' /usr/trimui/apps/usb_storage/config.json
 
 	# fnkey ko language
-	cp -f "/mnt/SDCARD/Themes/P5/skin/bg.png" "/usr/trimui/apps/fn_editor/"
+	cp -f "/mnt/SDCARD/trimui/res/bg.png" "/usr/trimui/apps/fn_editor/skin/"
 	cp -f "/mnt/SDCARD/trimui/res/fn_editor/scripts.json" "/usr/trimui/apps/fn_editor/"
 	cp -f "/mnt/SDCARD/trimui/res/NanumSquareNeo-cBd.ttf" "/usr/trimui/apps/fn_editor/DingTalkJinBuTi-Regular.ttf"
 	
