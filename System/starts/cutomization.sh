@@ -17,16 +17,17 @@ if [ ! -e "/usr/trimui/fw_mod_done" ]; then
 	sed -i 's/\"label.ch.lang.*/\"label.ko.lang\":\"미디어 플레이어\",/' /usr/trimui/apps/player/config.json
 	sed -i 's/\"label.ch.lang.*/\"label.ko.lang\":\"USB 저장소\",/' /usr/trimui/apps/usb_storage/config.json
 
-	# modifying default theme to impact all other themes (Better game image background)
-	mv "/usr/trimui/res/skin/ic-game-580.png" "/usr/trimui/res/skin/ic-game-580_old.png"
-	cp "/mnt/SDCARD/trimui/res/skin/ic-game-580.png" "/usr/trimui/res/skin/ic-game-580.png"
-
 	# fnkey ko language
+	cp -f "/mnt/SDCARD/Themes/P5/skin/bg.png" "/usr/trimui/apps/fn_editor/"
 	cp -f "/mnt/SDCARD/trimui/res/fn_editor/scripts.json" "/usr/trimui/apps/fn_editor/"
 	cp -f "/mnt/SDCARD/trimui/res/NanumSquareNeo-cBd.ttf" "/usr/trimui/apps/fn_editor/DingTalkJinBuTi-Regular.ttf"
 
 	# Removing duplicated app
 	rm -rf /usr/trimui/apps/zformatter_fat32/
+
+	# modifying default theme to impact all other themes (Better game image background)
+	mv "/usr/trimui/res/skin/ic-game-580.png" "/usr/trimui/res/skin/ic-game-580_old.png"
+	cp "/mnt/SDCARD/trimui/res/skin/ic-game-580.png" "/usr/trimui/res/skin/ic-game-580.png"
 
 	# Apply default CrossMix theme, sound volume, and grid view
 	cp /mnt/SDCARD/System/usr/trimui/scripts/MainUI_default_system.json /mnt/UDISK/system.json
