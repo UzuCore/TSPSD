@@ -18,8 +18,8 @@ NumAdded=0
 
 if [ "$silent" = false ]; then
   /mnt/SDCARD/System/bin/sdl2imgshow \
-    -i "./background.jpg" \
-    -f "/mnt/SDCARD/System/resources/DejaVuSans.ttf" \
+    -i "/mnt/SDCARD/trimui/res/bg.png" \
+    -f "/mnt/SDCARD/trimui/res/NanumSquareNeo-bRg.ttf" \
     -s 100 \
     -c "220,0,0" \
     -t " " &
@@ -99,11 +99,11 @@ if [ "$silent" = false ]; then
   sleep 0.3
 
   /mnt/SDCARD/System/bin/sdl2imgshow \
-    -i "./background-info.jpg" \
-    -f "/mnt/SDCARD/System/resources/DejaVuSans.ttf" \
+    -i "/mnt/SDCARD/trimui/res/bg.png" \
+    -f "/mnt/SDCARD/trimui/res/NanumSquareNeo-bRg.ttf" \
     -s 40 \
     -c "255,255,255" \
-    -t "${NumAdded} displayed emulator(s).      ${NumRemoved} hidden emulator(s)." &
+    -t "${NumAdded} displayed emulator(s) / ${NumRemoved} hidden emulator(s)." &
 
   sleep 3.5
   pkill -f sdl2imgshow
