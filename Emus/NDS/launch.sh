@@ -1,16 +1,17 @@
 #!/bin/sh
 echo $0 $*
+source /mnt/SDCARD/System/usr/trimui/scripts/FolderOverrideFinder.sh
 progdir=`dirname "$0"`/drastic
 cd $progdir
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$progdir/lib
-export LD_PRELOAD=./libSDL2-2.0.so.0.2600.1
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$progdir
 
 echo "=============================================="
-echo "==================== DRASTIC ================="
+echo "==================== DRASTIC  ================="
 echo "=============================================="
 
-../performance.sh
+echo 1608000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq
+echo performance > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
 
-export HOME="$progdir"
-#export SDL_AUDIODRIVER=dsp
+export HOME=/mnt/SDCARD
+
 ./drastic "$*"
