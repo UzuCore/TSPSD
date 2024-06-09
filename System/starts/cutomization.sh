@@ -21,6 +21,9 @@ if [ ! -e "/usr/trimui/fw_mod_done" ]; then
 	cp -f "/mnt/SDCARD/Themes/P5/skin/bg.png" "/usr/trimui/apps/fn_editor/"
 	cp -f "/mnt/SDCARD/trimui/res/fn_editor/scripts.json" "/usr/trimui/apps/fn_editor/"
 	cp -f "/mnt/SDCARD/trimui/res/NanumSquareNeo-cBd.ttf" "/usr/trimui/apps/fn_editor/DingTalkJinBuTi-Regular.ttf"
+	
+	# usb storage bg ko language
+	cp -f "/mnt/SDCARD/trimui/res/usb_storage/bg.png" "/usr/trimui/apps/usb_storage/"
 
 	# Removing duplicated app
 	rm -rf /usr/trimui/apps/zformatter_fat32/
