@@ -3,7 +3,7 @@ export LD_LIBRARY_PATH="/mnt/SDCARD/System/lib:/usr/trimui/lib:$LD_LIBRARY_PATH"
 system_json="/mnt/UDISK/system.json"
 
 # Screenshot Alias
-alias shot="/usr/trimui/bin/fbscreencap $(date '+%Y%m%d%H%M%S').png"
+#alias shot="/usr/trimui/bin/fbscreencap $(date '+%Y%m%d%H%M%S').png"
 
 ################ CrossMix-OS internal storage Customization ################
 
