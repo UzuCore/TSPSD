@@ -2,7 +2,7 @@
     "label": "NDS",
     "icon": "/mnt/SDCARD/Icons/Default/Emus/NDS.png",
     "launch": "launch.sh",
-    "background": "",
+    "background":"",
     "themecolor":"FF8800",
     "iconsel":"",
     "rompath":"../../Roms/NDS",

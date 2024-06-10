@@ -3,7 +3,7 @@
   "icon": "/mnt/SDCARD/Icons/Default/Emus/TI83.png",
   "iconsmall": "ic-cps1-80-n.png",
   "iconlist": "ic-cps1-32-n.png",
-  "background": "/mnt/SDCARD/Backgrounds/Default/TI83.png",
+  "background":"",
   "themecolor": "0000FF",
   "launch": "launch.sh",
   "rompath": "../../Roms/TI83",

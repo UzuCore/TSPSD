@@ -3,7 +3,7 @@
   "icon": "/mnt/SDCARD/Icons/Default/Emus/PANASONIC.png",
   "iconsmall": "ic-OPERA-small.png",
   "iconlist": "ic-OPERA-list.png",
-  "background": "/mnt/SDCARD/Backgrounds/Default/PANASONIC.png",
+  "background":"",
   "themecolor": "FFFF88",
   "launch": "launch.sh",
   "rompath": "../../Roms/PANASONIC",

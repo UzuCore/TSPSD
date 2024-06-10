@@ -3,7 +3,7 @@
   "icon": "/mnt/SDCARD/Icons/Default/Emus/SATURN.png",
   "iconsmall": "",
   "iconlist": "",
-  "background": "/mnt/SDCARD/Backgrounds/Default/SATURN.png",
+  "background":"",
   "themecolor": "FFFF88",
   "launch": "launch.sh",
   "rompath": "../../Roms/SATURN",

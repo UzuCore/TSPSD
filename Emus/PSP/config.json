@@ -3,7 +3,7 @@
   "label.ch.lang": "PSP",
   "icon": "/mnt/SDCARD/Icons/Default/Emus/PSP.png",
   "launch": "launch_performance.sh",
-  "background": "/mnt/SDCARD/Backgrounds/Default/PSP.png",
+  "background":"",
   "themecolor": "64A8BD",
   "iconsel": "",
   "rompath": "../../Roms/PSP",

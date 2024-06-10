@@ -4,7 +4,7 @@
   "iconsmall": "ic-dc-small.png",
   "iconlist": "ic-dc-list.png",
   "effectsh": "effect.sh",
-  "background": "/mnt/SDCARD/Backgrounds/Default/DC.png",
+  "background":"",
   "themecolor": "FFFFFF",
   "launch": "launch.sh",
   "rompath": "../../Roms/DC",

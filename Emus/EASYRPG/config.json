@@ -2,7 +2,7 @@
   "label": "EASYRPG",
   "icon": "/mnt/SDCARD/Icons/Default/Emus/EASYRPG.png",
   "iconsel": "",
-  "background": "/mnt/SDCARD/Backgrounds/Default/EASYRPG.png",
+  "background":"",
   "launch": "launch.sh",
   "rompath": "../../Roms/EASYRPG",
   "imgpath": "../../Imgs/EASYRPG",

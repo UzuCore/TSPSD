@@ -3,7 +3,7 @@
   "icon": "/mnt/SDCARD/Icons/Default/Emus/DOS.png",
   "iconsmall": "ic-dos-small.png",
   "iconlist": "ic-dos-list.png",
-  "background": "/mnt/SDCARD/Backgrounds/Default/DOS.png",
+  "background":"",
   "themecolor": "FFFF88",
   "launch": "launch.sh",
   "rompath": "../../Roms/DOS",

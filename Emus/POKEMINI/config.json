@@ -3,7 +3,7 @@
   "icon": "/mnt/SDCARD/Icons/Default/Emus/POKEMINI.png",
   "iconsmall": "",
   "iconlist": "",
-  "background": "/mnt/SDCARD/Backgrounds/Default/POKEMINI.png",
+  "background":"",
   "themecolor": "FFFF88",
   "launch": "launch.sh",
   "rompath": "../../Roms/POKEMINI",

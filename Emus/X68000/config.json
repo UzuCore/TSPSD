@@ -1,7 +1,7 @@
 {
   "label": "SHARP X68000",
   "icon": "/mnt/SDCARD/Icons/Default/Emus/X68000.png",
-  "background": "/mnt/SDCARD/Backgrounds/Default/X68000.png",
+  "background":"",
   "iconsel": "",
   "launch": "launch.sh",
   "rompath": "../../Roms/X68000",

@@ -3,7 +3,7 @@
   "icon": "/mnt/SDCARD/Icons/Default/Emus/GG.png",
   "iconsmall": "ic-GG-small.png",
   "iconlist": "ic-GG-list.png",
-  "background": "/mnt/SDCARD/Backgrounds/Default/GG.png",
+  "background":"",
   "themecolor": "FFFF88",
   "launch": "launch.sh",
   "rompath": "../../Roms/GG",

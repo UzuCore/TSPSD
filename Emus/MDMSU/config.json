@@ -3,7 +3,7 @@
   "icon": "/mnt/SDCARD/Icons/Default/Emus/MDMSU.png",
   "iconsmall": "",
   "iconlist": "",
-  "background": "/mnt/SDCARD/Backgrounds/Default/MDMSU.png",
+  "background":"",
   "themecolor": "0088CF",
   "launch": "launch.sh",
   "rompath": "../../Roms/MDMSU",

@@ -3,7 +3,7 @@
   "icon": "/mnt/SDCARD/Icons/Default/Emus/SFX.png",
   "iconsmall": "",
   "iconlist": "",
-  "background": "/mnt/SDCARD/Backgrounds/Default/SFX.png",
+  "background":"",
   "themecolor": "FFFF88",
   "launch": "launch.sh",
   "rompath": "../../Roms/SFX",

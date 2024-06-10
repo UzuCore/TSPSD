@@ -3,7 +3,7 @@
   "icon": "/mnt/SDCARD/Icons/Default/Emus/X1.png",
   "iconsmall": "ic-X1-small.png",
   "iconlist": "ic-X1-list.png",
-  "background": "/mnt/SDCARD/Backgrounds/Default/X1.png",
+  "background":"",
   "themecolor": "FFFF88",
   "launch": "launch.sh",
   "rompath": "../../Roms/X1",

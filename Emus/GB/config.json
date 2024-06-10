@@ -1,7 +1,7 @@
 {
   "label": "GB",
   "icon": "/mnt/SDCARD/Icons/Default/Emus/GB.png",
-  "background": "/mnt/SDCARD/Backgrounds/Default/GB.png",
+  "background":"",
   "themecolor": "00FF88",
   "launch": "gambatte.sh",
   "rompath": "../../Roms/GB",

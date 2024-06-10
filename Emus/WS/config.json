@@ -1,7 +1,7 @@
 {
   "label": "WS",
   "icon": "/mnt/SDCARD/Icons/Default/Emus/WS.png",
-  "background": "/mnt/SDCARD/Backgrounds/Default/WS.png",
+  "background":"",
   "iconsel": "",
   "launch": "launch.sh",
   "rompath": "../../Roms/WS",

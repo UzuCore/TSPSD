@@ -3,7 +3,7 @@
   "icon": "/mnt/SDCARD/Icons/Default/Emus/CPLUS4.png",
   "iconsmall": "ic-C64-small.png",
   "iconlist": "ic-C64-list.png",
-  "background": "/mnt/SDCARD/Backgrounds/Default/CPLUS4.png",
+  "background":"",
   "themecolor": "FFFF88",
   "launch": "launch.sh",
   "rompath": "../../Roms/CPLUS4",

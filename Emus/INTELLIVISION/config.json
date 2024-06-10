@@ -1,7 +1,7 @@
 {
   "label": "INTELLIVISION",
   "icon": "/mnt/SDCARD/Icons/Default/Emus/INTELLIVISION.png",
-  "background": "/mnt/SDCARD/Backgrounds/Default/INTELLIVISION.png",
+  "background":"",
   "iconsel": "",
   "launch": "launch.sh",
   "rompath": "../../Roms/INTELLIVISION",

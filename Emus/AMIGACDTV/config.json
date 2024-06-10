@@ -1,7 +1,7 @@
 {
   "label": "AMIGA CDTV",
   "icon": "/mnt/SDCARD/Icons/Default/Emus/AMIGACDTV.png",
-  "background": "/mnt/SDCARD/Backgrounds/Default/AMIGACDTV.png",
+  "background":"",
   "iconsel": "",
   "launch": "launch.sh",
   "rompath": "../../Roms/AMIGACDTV",

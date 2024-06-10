@@ -3,7 +3,7 @@
   "icon": "/mnt/SDCARD/Icons/Default/Emus/NEOGEO.png",
   "iconsmall": "ic-neogeo-80-n.png",
   "iconlist": "ic-neogeo-32-n.png",
-  "background": "/mnt/SDCARD/Backgrounds/Default/NEOGEO.png",
+  "background":"",
   "themecolor": "FFD200",
   "launch": "launch.sh",
   "rompath": "../../Roms/NEOGEO",

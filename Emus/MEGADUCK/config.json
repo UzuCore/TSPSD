@@ -3,7 +3,7 @@
   "icon": "/mnt/SDCARD/Icons/Default/Emus/MEGADUCK.png",
   "iconsmall": "",
   "iconlist": "",
-  "background": "/mnt/SDCARD/Backgrounds/Default/MEGADUCK.png",
+  "background":"",
   "themecolor": "FF0000",
   "launch": "launch.sh",
   "rompath": "../../Roms/MEGADUCK",

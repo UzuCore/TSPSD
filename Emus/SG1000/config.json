@@ -1,7 +1,7 @@
 {
   "label": "SG-1000",
   "icon": "/mnt/SDCARD/Icons/Default/Emus/SG1000.png",
-  "background": "/mnt/SDCARD/Backgrounds/Default/SG1000.png",
+  "background":"",
   "iconsel": "",
   "launch": "launch.sh",
   "rompath": "../../Roms/SG1000",

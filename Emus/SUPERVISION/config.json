@@ -3,7 +3,7 @@
   "icon": "/mnt/SDCARD/Icons/Default/Emus/SUPERVISION.png",
   "iconsmall": "",
   "iconlist": "",
-  "background": "/mnt/SDCARD/Backgrounds/Default/SUPERVISION.png",
+  "background":"",
   "themecolor": "FF0000",
   "launch": "launch.sh",
   "rompath": "../../Roms/SUPERVISION",

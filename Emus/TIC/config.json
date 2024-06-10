@@ -3,7 +3,7 @@
   "icon": "/mnt/SDCARD/Icons/Default/Emus/TIC.png",
   "iconsmall": "ic-TIC-small.png",
   "iconlist": "ic-TIC-list.png",
-  "background": "/mnt/SDCARD/Backgrounds/Default/TIC.png",
+  "background":"",
   "themecolor": "FFFF88",
   "launch": "launch.sh",
   "rompath": "../../Roms/TIC",

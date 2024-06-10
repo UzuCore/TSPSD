@@ -3,7 +3,7 @@
   "icon": "/mnt/SDCARD/Icons/Default/Emus/ATARI2600.png",
   "iconsmall": "ic-atari2600-80-n.png",
   "iconlist": "ic-atari2600-32-n.png",
-  "background": "/mnt/SDCARD/Backgrounds/Default/ATARI2600.png",
+  "background":"",
   "themecolor": "AF7AC5",
   "launch": "launch.sh",
   "rompath": "../../Roms/ATARI2600",

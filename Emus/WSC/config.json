@@ -3,7 +3,7 @@
   "icon": "/mnt/SDCARD/Icons/Default/Emus/WSC.png",
   "iconsmall": "ic-WSC-80-n.png",
   "iconlist": "ic-WSC-32-n.png",
-  "background": "/mnt/SDCARD/Backgrounds/Default/WSC.png",
+  "background":"",
   "themecolor": "3C4593",
   "launch": "launch.sh",
   "rompath": "../../Roms/WSC",

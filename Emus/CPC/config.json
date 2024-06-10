@@ -1,7 +1,7 @@
 {
   "label": "AMSTRAD CPC",
   "icon": "/mnt/SDCARD/Icons/Default/Emus/CPC.png",
-  "background": "/mnt/SDCARD/Backgrounds/Default/CPC.png",
+  "background":"",
   "iconsel": "",
   "launch": "launch.sh",
   "rompath": "../../Roms/CPC",

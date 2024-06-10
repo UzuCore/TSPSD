@@ -3,7 +3,7 @@
   "icon": "/mnt/SDCARD/Icons/Default/Emus/SATELLAVIEW.png",
   "iconsmall": "",
   "iconlist": "",
-  "background": "/mnt/SDCARD/Backgrounds/Default/SATELLAVIEW.png",
+  "background":"",
   "themecolor": "FF0000",
   "launch": "launch.sh",
   "rompath": "../../Roms/SATELLAVIEW",

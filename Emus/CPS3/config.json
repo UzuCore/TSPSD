@@ -3,7 +3,7 @@
   "icon": "/mnt/SDCARD/Icons/Default/Emus/CPS3.png",
   "iconsmall": "ic-cps3-80-n.png",
   "iconlist": "ic-cps3-32-n.png",
-  "background": "/mnt/SDCARD/Backgrounds/Default/CPS3.png",
+  "background":"",
   "themecolor": "FF4400",
   "effectsh": "effect.sh",
   "launch": "launch.sh",

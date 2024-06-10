@@ -1,7 +1,7 @@
 {
   "label": "ZXSPECTRUM",
   "icon": "/mnt/SDCARD/Icons/Default/Emus/ZXS.png",
-  "background": "/mnt/SDCARD/Backgrounds/Default/ZXS.png",
+  "background":"",
   "iconsel": "",
   "launch": "launch.sh",
   "rompath": "../../Roms/ZXS",

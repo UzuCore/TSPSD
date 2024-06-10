@@ -3,7 +3,7 @@
   "icon": "/mnt/SDCARD/Icons/Default/Emus/PS.png",
   "iconsmall": "ic-PS-80-n.png",
   "iconlist": "ic-PS-32-n.png",
-  "background": "/mnt/SDCARD/Backgrounds/Default/PS.png",
+  "background":"",
   "themecolor": "00FF00",
   "launch": "pcsx.sh",
   "rompath": "../../Roms/PS",

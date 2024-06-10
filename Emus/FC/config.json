@@ -1,7 +1,7 @@
 {
   "label": "FC",
   "icon": "/mnt/SDCARD/Icons/Default/Emus/FC.png",
-  "background": "/mnt/SDCARD/Backgrounds/Default/FC.png",
+  "background":"",
   "themecolor": "00FF88",
   "launch": "fceumm.sh",
   "rompath": "../../Roms/FC",

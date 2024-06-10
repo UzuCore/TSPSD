@@ -3,7 +3,7 @@
   "icon": "/mnt/SDCARD/Icons/Default/Emus/GW.png",
   "iconsmall": "ic-GW-small.png",
   "iconlist": "ic-GW-list.png",
-  "background": "/mnt/SDCARD/Backgrounds/Default/GW.png",
+  "background":"",
   "themecolor": "FFFF88",
   "launch": "launch.sh",
   "rompath": "../../Roms/GW",

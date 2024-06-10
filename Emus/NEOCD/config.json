@@ -3,7 +3,7 @@
   "icon": "/mnt/SDCARD/Icons/Default/Emus/NEOCD.png",
   "iconsmall": "ic-NEOCD-small.png",
   "iconlist": "ic-NEOCD-list.png",
-  "background": "/mnt/SDCARD/Backgrounds/Default/NEOCD.png",
+  "background":"",
   "themecolor": "FFFF88",
   "launch": "launch.sh",
   "rompath": "../../Roms/NEOCD",

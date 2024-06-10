@@ -3,7 +3,7 @@
   "icon": "/mnt/SDCARD/Icons/Default/Emus/ATARI5200.png",
   "iconsmall": "",
   "iconlist": "",
-  "background": "/mnt/SDCARD/Backgrounds/Default/ATARI5200.png",
+  "background":"",
   "themecolor": "A569BD",
   "launch": "launch.sh",
   "rompath": "../../Roms/ATARI5200",

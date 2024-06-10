@@ -1,7 +1,7 @@
 {
   "label": "UZEBOX",
   "icon": "/mnt/SDCARD/Icons/Default/Emus/UZEBOX.png",
-  "background": "/mnt/SDCARD/Backgrounds/Default/UZEBOX.png",
+  "background":"",
   "iconsel": "",
   "launch": "launch.sh",
   "rompath": "../../Roms/UZEBOX",

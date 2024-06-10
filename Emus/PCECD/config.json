@@ -1,7 +1,7 @@
 {
   "label": "PCE CD",
   "icon": "/mnt/SDCARD/Icons/Default/Emus/PCECD.png",
-  "background": "/mnt/SDCARD/Backgrounds/Default/PCECD.png",
+  "background":"",
   "iconsel": "",
   "launch": "launch.sh",
   "rompath": "../../Roms/PCECD",

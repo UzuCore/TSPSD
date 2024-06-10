@@ -2,7 +2,7 @@
   "label": "MASTERSYSTEM",
   "icon": "/mnt/SDCARD/Icons/Default/Emus/MS.png",
   "iconsel": "",
-  "background": "/mnt/SDCARD/Backgrounds/Default/MS.png",
+  "background":"",
   "themecolor": "740009",
   "launch": "launch.sh",
   "rompath": "../../Roms/MS",

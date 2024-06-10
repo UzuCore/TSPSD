@@ -1,7 +1,7 @@
 {
   "label": "NGC",
   "icon": "/mnt/SDCARD/Icons/Default/Emus/NGC.png",
-  "background": "/mnt/SDCARD/Backgrounds/Default/NGC.png",
+  "background":"",
   "iconsel": "",
   "launch": "launch.sh",
   "rompath": "../../Roms/NGC",

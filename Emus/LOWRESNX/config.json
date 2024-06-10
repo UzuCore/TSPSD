@@ -3,7 +3,7 @@
   "icon": "/mnt/SDCARD/Icons/Default/Emus/LOWRESNX.png",
   "iconsmall": "ic-LOWRESNX-small.png",
   "iconlist": "ic-LOWRESNX-list.png",
-  "background": "/mnt/SDCARD/Backgrounds/Default/LOWRESNX.png",
+  "background":"",
   "themecolor": "FFFF88",
   "launch": "launch.sh",
   "rompath": "../../Roms/LOWRESNX",

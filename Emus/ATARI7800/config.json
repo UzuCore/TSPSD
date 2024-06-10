@@ -3,7 +3,7 @@
   "icon": "/mnt/SDCARD/Icons/Default/Emus/ATARI7800.png",
   "iconsmall": "ic-atari7800-80-n.png",
   "iconlist": "ic-atari7800-32-n.png",
-  "background": "/mnt/SDCARD/Backgrounds/Default/ATARI7800.png",
+  "background":"",
   "themecolor": "A569BD",
   "launch": "launch.sh",
   "rompath": "../../Roms/ATARI7800",

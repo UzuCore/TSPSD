@@ -3,7 +3,7 @@
   "icon": "/mnt/SDCARD/Icons/Default/Emus/PORTS.png",
   "iconsmall": "",
   "iconlist": "",
-  "background": "/mnt/SDCARD/Backgrounds/Default/PORTS.png",
+  "background":"",
   "themecolor": "61A8DD",
   "launch": "launch_balanced.sh",
   "rompath": "../../Roms/PORTS",

@@ -1,7 +1,7 @@
 {
   "label": "ATARIST",
   "icon": "/mnt/SDCARD/Icons/Default/Emus/ATARIST.png",
-  "background": "/mnt/SDCARD/Backgrounds/Default/ATARIST.png",
+  "background":"",
   "iconsel": "",
   "launch": "launch.sh",
   "rompath": "../../Roms/ATARIST",

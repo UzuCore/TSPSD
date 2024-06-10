@@ -1,7 +1,7 @@
 {
   "label": "SCUMMVM",
   "icon": "/mnt/SDCARD/Icons/Default/Emus/SCUMMVM.png",
-  "background": "/mnt/SDCARD/Backgrounds/Default/SCUMMVM.png",
+  "background":"",
   "themecolor": "00D300",
   "launch": "launch.sh",
   "rompath": "../../Roms/SCUMMVM",

@@ -1,7 +1,7 @@
 {
   "label": "SGB",
   "icon": "/mnt/SDCARD/Icons/Default/Emus/SGB.png",
-  "background": "/mnt/SDCARD/Backgrounds/Default/SGB.png",
+  "background":"",
   "iconsel": "",
   "launch": "launch.sh",
   "rompath": "../../Roms/SGB",

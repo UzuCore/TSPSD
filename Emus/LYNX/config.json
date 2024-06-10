@@ -3,7 +3,7 @@
   "icon": "/mnt/SDCARD/Icons/Default/Emus/LYNX.png",
   "iconsmall": "ic-LYNX-small.png",
   "iconlist": "ic-LYNX-list.png",
-  "background": "/mnt/SDCARD/Backgrounds/Default/LYNX.png",
+  "background":"",
   "themecolor": "FFFF88",
   "launch": "launch.sh",
   "rompath": "../../Roms/LYNX",
