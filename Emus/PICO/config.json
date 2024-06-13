@@ -12,14 +12,11 @@
   "hidebios": 1,
   "launchlist": [
     {
-      "name": "FAKE-08                     ",
+      "name": "FAKE-08",
       "launch": "fake08.sh"
     },
     {
-<<<<<<< HEAD
-      "name": "RETRO8",
-=======
-      "name": "Pico8 Wrapper           ",
+      "name": "Pico8 Wrapper",
       "launch": "Pico8 Wrapper.sh"
     },
     {
@@ -27,8 +24,7 @@
       "launch": "Pico8 Wrapper - Splore.sh"
     },
     {
-      "name": "RETRO8                      ",
->>>>>>> 9752379858e9f9bd24ea58f0e4ce2e1221c3144d
+      "name": "RETRO8",
       "launch": "retro8.sh"
     }
   ]
