@@ -9,6 +9,21 @@ system_json="/mnt/UDISK/system.json"
 
 if [ ! -e "/usr/trimui/fw_mod_done" ]; then
 
+	# Removing duplicated app
+	rm -rf /usr/trimui/apps/zformatter_fat32/
+
+	# modifying default theme to impact all other themes (Better game image background)
+	mv "/usr/trimui/res/skin/ic-game-580.png" "/usr/trimui/res/skin/ic-game-580_old.png"
+	cp "/mnt/SDCARD/trimui/res/skin/ic-game-580.png" "/usr/trimui/res/skin/ic-game-580.png"
+
+	# modifying FN cpu script (don't force slow cpu, only force high speed when FN is set to ON) (and we set it as default)
+	cp /mnt/SDCARD/System/usr/trimui/res/apps/fn_editor/com.trimui.cpuperformance.sh /usr/trimui/apps/fn_editor/com.trimui.cpuperformance.sh
+	cp /mnt/SDCARD/System/usr/trimui/res/apps/fn_editor/com.trimui.cpuperformance.sh /usr/trimui/scene/com.trimui.cpuperformance.sh
+
+	# Apply default CrossMix theme, sound volume, and grid view
+	cp /mnt/SDCARD/System/usr/trimui/scripts/MainUI_default_system.json /mnt/UDISK/system.json
+	# sed -i "s|\"theme\":.*|\"theme\": \"/mnt/SDCARD/Themes/CrossMix - OS/\",|" "$system_json"
+
 	# background remove
 	find /mnt/SDCARD/Emus/ -iname config.json -exec sed -i 's/\"background.*\"/\"background\":\"\"/' {} \;
 
@@ -27,17 +42,6 @@ if [ ! -e "/usr/trimui/fw_mod_done" ]; then
 	
 	# usb storage bg ko language
 	cp -f "/mnt/SDCARD/trimui/res/usb_storage/bg.png" "/usr/trimui/apps/usb_storage/"
-
-	# Removing duplicated app
-	rm -rf /usr/trimui/apps/zformatter_fat32/
-
-	# modifying default theme to impact all other themes (Better game image background)
-	mv "/usr/trimui/res/skin/ic-game-580.png" "/usr/trimui/res/skin/ic-game-580_old.png"
-	cp "/mnt/SDCARD/trimui/res/skin/ic-game-580.png" "/usr/trimui/res/skin/ic-game-580.png"
-
-	# Apply default CrossMix theme, sound volume, and grid view
-	cp /mnt/SDCARD/System/usr/trimui/scripts/MainUI_default_system.json /mnt/UDISK/system.json
-	# sed -i "s|\"theme\":.*|\"theme\": \"/mnt/SDCARD/Themes/CrossMix - OS/\",|" "$system_json"
 
 	# we set the customization flag
 	touch "/usr/trimui/fw_mod_done"
