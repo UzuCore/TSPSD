@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-## 작업중
-=======
 <div align="center">
     <img src="_assets/readme/TSP-Logo.png">
     
@@ -253,5 +250,3 @@ If you enjoy my work and want to support the countless hours/days invested, here
 - [![Buy Me a Coffee](_assets/readme/bmc.png)](https://www.buymeacoffee.com/cizia)
 - [![ko-fi](_assets/readme/ko-fi.png)](https://ko-fi.com/H2H7YPH3H)
 
-
->>>>>>> 9780dc9d1a5663216f5f856e677e85f15b2dc92c
