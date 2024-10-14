@@ -1,10 +1,11 @@
 #!/bin/sh
 echo $0 $*
-source /mnt/SDCARD/System/usr/trimui/scripts/FolderOverrideFinder.sh
+source /mnt/SDCARD/System/usr/trimui/scripts/common_launcher.sh
 RA_DIR=/mnt/SDCARD/RetroArch
 EMU_DIR=/mnt/SDCARD/Emus/NAOMI
 
-$EMU_DIR/performance.sh
+$EMU_DIR/cpufreq.sh
+$EMU_DIR/effect.sh
 
 cd $RA_DIR/
 

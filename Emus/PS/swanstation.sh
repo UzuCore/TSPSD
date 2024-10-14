@@ -1,9 +1,13 @@
 #!/bin/sh
 echo $0 $*
-source /mnt/SDCARD/System/usr/trimui/scripts/FolderOverrideFinder.sh
+source /mnt/SDCARD/System/usr/trimui/scripts/common_launcher.sh
 RA_DIR=/mnt/SDCARD/RetroArch
 EMU_DIR=/mnt/SDCARD/Emus/PS
 cd $RA_DIR/
+
+if ! find "/mnt/SDCARD/BIOS" -maxdepth 1 -iname "scph*" -o -iname "psxonpsp660.bin" -o -iname "ps*.bin" | grep -q .; then
+	/mnt/SDCARD/System/usr/trimui/scripts/infoscreen.sh -i bg-exit.png -m "No bios found, SwanStation will probably not work." -k " "
+fi
 
 $EMU_DIR/performance.sh
 
